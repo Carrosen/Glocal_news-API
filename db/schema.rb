@@ -23,8 +23,8 @@ ActiveRecord::Schema.define(version: 2019_06_08_121119) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "written_by"
-    t.bigint "category_id"
     t.boolean "published", default: false
+    t.bigint "category_id"
     t.string "country"
     t.string "city"
     t.bigint "user_id"
